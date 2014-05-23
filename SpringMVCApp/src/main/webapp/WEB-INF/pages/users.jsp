@@ -43,9 +43,9 @@
             <div class="control-group">
                 <div class="controls">
                     <input type="submit" value="Add User" class="btn"/>
-                    </form:form>
                 </div>
             </div>
+            </form:form>
 
             <c:if test="${!empty users}">
                 <h3>Users</h3>
